@@ -1,12 +1,12 @@
 /**
  * @file main.cpp
- * @author Vinay Lanka (120417665)
+ * @author Vinay Lanka (vlanka@umd.edu)
  * @brief Tests for PID controller implementation
  * @version 0.1
  * @date 2023-10-05
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include <gtest/gtest.h>
 
