@@ -1,0 +1,43 @@
+INITIAL TEST FAILURE
+Test project /home/mvboiii/test_driven_development/pid_controller_tdd/build
+    Start 1: dummy_test.pass_test
+1/5 Test #1: dummy_test.pass_test .................   Passed    0.01 sec
+    Start 2: PID_Implementation_Test.Test_min
+2/5 Test #2: PID_Implementation_Test.Test_min .....***Failed    0.01 sec
+    Start 3: PID_Implementation_Test.Test_max
+3/5 Test #3: PID_Implementation_Test.Test_max .....***Failed    0.01 sec
+    Start 4: PID_Implementation_Test.Test_zero
+4/5 Test #4: PID_Implementation_Test.Test_zero ....***Failed    0.01 sec
+    Start 5: PID_Implementation_Test.Test_value
+5/5 Test #5: PID_Implementation_Test.Test_value ...***Failed    0.01 sec
+
+20% tests passed, 4 tests failed out of 5
+
+Total Test time (real) =   0.08 sec
+
+The following tests FAILED:
+	  2 - PID_Implementation_Test.Test_min (Failed)
+	  3 - PID_Implementation_Test.Test_max (Failed)
+	  4 - PID_Implementation_Test.Test_zero (Failed)
+	  5 - PID_Implementation_Test.Test_value (Failed)
+Errors while running CTest
+
+TEST PASS
+
+Internal ctest changing into directory: /home/mvboiii/test_driven_development/pid_controller_tdd/build
+Test project /home/mvboiii/test_driven_development/pid_controller_tdd/build
+    Start 1: dummy_test.pass_test
+1/5 Test #1: dummy_test.pass_test .................   Passed    0.03 sec
+    Start 2: PID_Implementation_Test.Test_min
+2/5 Test #2: PID_Implementation_Test.Test_min .....   Passed    0.01 sec
+    Start 3: PID_Implementation_Test.Test_max
+3/5 Test #3: PID_Implementation_Test.Test_max .....   Passed    0.01 sec
+    Start 4: PID_Implementation_Test.Test_zero
+4/5 Test #4: PID_Implementation_Test.Test_zero ....   Passed    0.01 sec
+    Start 5: PID_Implementation_Test.Test_value
+5/5 Test #5: PID_Implementation_Test.Test_value ...   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =   0.08 sec
+
