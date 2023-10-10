@@ -16,6 +16,9 @@ Part 1 -
 - Driver: Vinay Lanka (120417665) (vlanka@umd.edu)
 - Navigator: Ishaan Parikh (119135891) (Ishaanp@umd.edu)
 
+Part 2 -
+- Driver: Manav Nagda
+- Navigator: Vedant Ranade
 
 ### Setup via command line
 
@@ -30,7 +33,7 @@ $ cmake -S ./ -B build/
 $ cmake --build build/
 
 #If you want to generate the compile_json file with bear
-$ bear -- cmake --build build/ --clean-first
+$  cmake --build build/ --clean-first
 
 #To clean and start over
 $ rm -rf build/
